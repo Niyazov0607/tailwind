@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./style.css" />
+        <title>Tailwind</title>
+    </head>
+    <body class="text-white">
+        <header>
+            <nav class="nav">
+                <div class="container">
+                    <div
+                        class="flex items-center justify-between py-8 nav__wrapper"
+                    >
+                        <div class="nav__logo">
+                            <img src="./assets/icons/logo.svg" alt="" />
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <ul class="flex gap-7 ">
+                                <li class="nav__list">
+                                    <a href="#">
+                                        <span>ГЛАВНАЯ</span>
+                                    </a>
+                                </li>
+                                <li class="nav__list">
+                                    <a href="#">
+                                        <span>МЕНЮ</span>
+                                    </a>
+                                </li>
+                                <li class="nav__list">
+                                    <a href="#">
+                                        <span>О НАС</span>
+                                    </a>
+                                </li>
+                                <li class="nav__list">
+                                    <a href="#">
+                                        <span>БРОНЬ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="flex items-center">
+                                <div class="px-5 py-4 border-r">
+                                    <img src="./assets/icons/cart.svg" alt="" />
+                                </div>
+                                <div class="px-10">
+                                    <div class="flex items-center">
+                                        <img
+                                            src="./assets/icons/phone.svg"
+                                            alt=""
+                                        />
+                                        <h4 class="">+999-888-76-54</h4>
+                                    </div>
+                                    <div class="mt-1">
+                                        <p>
+                                            Свяжитесь с нами для <br />
+                                            бронирования
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="py-3 px-5 font-[700] bg-[#FF7400] ">
+                                    <button>ЗАКАЗ СТОЛИКА</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="pt-[153px] pb-[124px] hero__wrapper">
+                        <h3 class="text-[#D67E35] text-5xl px-3">
+                            Добро пожаловать в
+                        </h3>
+                        <h1 class="text-7xl text-[#D67E35] py-3">
+                            Наш ресторан
+                        </h1>
+                        <div class="flex items-center px-20 py-5">
+                            <div>
+                                <img
+                                    src="./assets/icons/Rectangle 26.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <p class="">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+                            </div>
+                            <div>
+                                <img
+                                    src="./assets/icons/Rectangle 26.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="px-40">
+                            <button class="px-7 py-3 bg-[#FF7400] font-[700]">
+                                VIEW MENU
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="foods">
+                <div class="container">
+                    <div class="flex justify-center gap-20 py-6 oods__wrap">
+                        <div class="px-10 py-4 text-center bg-white shadow-xl">
+                            <div class="px-12">
+                                <img
+                                    src="./assets/images/Mask Group.png"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="text-black">
+                                Магическая
+                                <span class="text-[#BC9060]">Атмосфера</span>
+                            </h4>
+                            <p class="text-[#656363]">
+                                В нашем заведении царит <br />магическая
+                                атмосфера<br />
+                                наполненная вкусными <br />ароматами
+                            </p>
+                        </div>
+                        <div class="px-10 py-12 text-center bg-white shadow-xl">
+                            <div class="px-12">
+                                <img
+                                    src="./assets/images/Mask Group.png"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="text-black">
+                                Магическая
+                                <span class="text-[#BC9060]">Атмосфера</span>
+                            </h4>
+                            <p class="text-[#656363]">
+                                В нашем заведении царит <br />магическая
+                                атмосфера<br />
+                                наполненная вкусными <br />ароматами
+                            </p>
+                        </div>
+                        <div class="px-10 py-12 text-center bg-white shadow-xl">
+                            <div class="px-12">
+                                <img
+                                    src="./assets/images/Mask Group.png"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="text-black">
+                                Магическая
+                                <span class="text-[#BC9060]">Атмосфера</span>
+                            </h4>
+                            <p class="text-[#656363]">
+                                В нашем заведении царит <br />магическая
+                                атмосфера<br />
+                                наполненная вкусными <br />ароматами
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="history">
+                <div class="container">
+                    <div
+                        class="flex justify-between history__wrapper mt-[150px]"
+                    >
+                        <div class="info">
+                            <h2
+                                class="text-black title text-[54px] text-center"
+                            >
+                                Наша <span class="text-[#BC9060]">История</span>
+                            </h2>
+                            <p class="text-[#656363] text-center py-2">
+                                Как и у любого другого самобытного места, у нас
+                                есть <br />своя, особая история. Идея ресторана
+                                пришла <br />
+                                основателям неожиданно. Во время прогулки по
+                                лесу <br />создатель нашего ресторана застрял в
+                                сотнях <br />
+                                километров от ближайшего населенного пункта.
+                                Вдали <br />от цивилизации и связи им пришлось
+                                навремя <br />
+                                обустровать себе нехитрый быт, добывать и
+                                готовить <br />себе еду.
+                            </p>
+                            <div class="flex gap-[50px]">
+                                <div>
+                                    <span
+                                        class="text-[#BC9060] text-[40px] block px-3"
+                                        >93</span
+                                    >
+                                    <span class="text-black">Напитки</span>
+                                </div>
+                                <div>
+                                    <span
+                                        class="text-[#BC9060] text-[40px] block"
+                                        >206</span
+                                    >
+                                    <span class="px-4 text-black">Еда</span>
+                                </div>
+                                <div>
+                                    <span
+                                        class="text-[#BC9060] text-[40px] block px-3"
+                                        >71</span
+                                    >
+                                    <span class="text-black">Закуски</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/images/images.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="restaurant">
+                <div class="container">
+                    <div
+                        class="flex items-center justify-between py-20 restaurant__wrapper"
+                    >
+                        <div>
+                            <h1 class="text-[#D67E34] text-[52px]">
+                                Отпразднуйте в одном из <br />самых лучших
+                                ресторанов.
+                            </h1>
+                            <p class="font-[700] text-[24px] py-2">
+                                Только в этом месяце бизнес-ланч от 250 ₽
+                            </p>
+                        </div>
+                        <div>
+                            <button class="bg-[#FF7400] py-3 px-5 font-[700]">
+                                ЗАКАЗ СТОЛИКА
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="meals">
+                <div class="container">
+                    <div
+                        class="items-center justify-center text-center meals__wrapper"
+                    >
+                        <h2 class="text-black text-[54px]">
+                            Наши <span class="text-[#BC9060]">Блюда</span>
+                        </h2>
+                        <div class="flex mt-[140px] items-center">
+                            <div class="flex">
+                                <div>
+                                    <img
+                                        src="./assets/images/pizza-4968645_1920 (1) 1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="px-6">
+                                    <div class="">
+                                        <img
+                                            src="./assets/images/hamburger-494706_1920 1.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="mt-[25px]">
+                                        <img
+                                            src="./assets/images/hamburger-494706_1920 1.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="mt-[29px]">
+                                        <img
+                                            src="./assets/images/hamburger-494706_1920 1.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items-center">
+                                <div class="flex items-center">
+                                    <h5
+                                        class="text-black mt-[-3.5px] text-[26px]"
+                                    >
+                                        Гамбургер мини
+                                    </h5>
+                                    <div class="px-2">
+                                        <img
+                                            src="./assets/icons/Vector (2).svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span class="text-black">220 ₽</span>
+                                </div>
+                                <div class="flex items-center py-32">
+                                    <h5
+                                        class="text-black mt-[-3.5px] text-[26px]"
+                                    >
+                                        Гамбургер мини
+                                    </h5>
+                                    <div class="px-2">
+                                        <img
+                                            src="./assets/icons/Vector (2).svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span class="text-black">220 ₽</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <h5
+                                        class="text-black mt-[-3.5px] text-[26px]"
+                                    >
+                                        Гамбургер мини
+                                    </h5>
+                                    <div class="px-2">
+                                        <img
+                                            src="./assets/icons/Vector (2).svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span class="text-black">220 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="menu mt-[150px]">
+                <div class="container">
+                    <div class="text-center menu__wrapper">
+                        <div class="text-[54px]">
+                            <h1 class="py-20 text-[54px ]">Наше меню</h1>
+                        </div>
+                        <div class="flex menu__cards gap-[30px]">
+                            <div
+                                class="relative px-10 py-16 bg-white menu__card"
+                            >
+                                <div class="relative">
+                                    <h5
+                                        class="absolute bg-[#D67E34] py-2 px-3 text-black bottom-6 right-[54.5%]"
+                                    >
+                                        RECOMMENDED
+                                    </h5>
+                                </div>
+                                <div class="relative">
+                                    <img
+                                        src="./assets/images/Mask Group (1).png"
+                                        alt=""
+                                    />
+                                    <span
+                                        class="absolute bottom-8 left-40 z-20 text-[30px]"
+                                        >420</span
+                                    >
+                                </div>
+                                <div class="absolute bottom-[46%] left-44">
+                                    <img
+                                        src="./assets/images/Ellipse 2.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <h4 class="text-black text-[26px] py-4">
+                                    Гамбургер макси
+                                </h4>
+                                <p class="text-black">
+                                    Максимально толстый <br />
+                                    слой мяса
+                                </p>
+                                <div
+                                    class="mt-[16px] bg-[#D67E34] py-3 font-[700] shadow-xl"
+                                >
+                                    <button>ЗАКАЗАТЬ</button>
+                                </div>
+                            </div>
+                            <div
+                                class="relative px-10 py-16 bg-white menu__card"
+                            >
+                                <div class="relative">
+                                    <h5
+                                        class="absolute bg-[#D67E34] py-2 px-3 text-black bottom-6 right-[54.5%]"
+                                    >
+                                        RECOMMENDED
+                                    </h5>
+                                </div>
+                                <div class="relative">
+                                    <img
+                                        src="./assets/images/Mask Group (1).png"
+                                        alt=""
+                                    />
+                                    <span
+                                        class="absolute bottom-8 left-40 z-20 text-[30px]"
+                                        >420</span
+                                    >
+                                </div>
+                                <div class="absolute bottom-[46%] left-44">
+                                    <img
+                                        src="./assets/images/Ellipse 2.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <h4 class="text-black text-[26px] py-4">
+                                    Гамбургер макси
+                                </h4>
+                                <p class="text-black">
+                                    Максимально толстый <br />
+                                    слой мяса
+                                </p>
+                                <div
+                                    class="mt-[16px] bg-[#D67E34] py-3 font-[700] shadow-xl"
+                                >
+                                    <button>ЗАКАЗАТЬ</button>
+                                </div>
+                            </div>
+                            <div
+                                class="relative px-10 py-16 bg-white menu__card"
+                            >
+                                <div class="relative">
+                                    <h5
+                                        class="absolute bg-[#D67E34] py-2 px-3 text-black bottom-6 right-[54.5%]"
+                                    >
+                                        RECOMMENDED
+                                    </h5>
+                                </div>
+                                <div class="relative">
+                                    <img
+                                        src="./assets/images/Mask Group (1).png"
+                                        alt=""
+                                    />
+                                    <span
+                                        class="absolute bottom-8 left-40 z-20 text-[30px]"
+                                        >420</span
+                                    >
+                                </div>
+                                <div class="absolute bottom-[46%] left-44">
+                                    <img
+                                        src="./assets/images/Ellipse 2.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <h4 class="text-black text-[26px] py-4">
+                                    Гамбургер макси
+                                </h4>
+                                <p class="text-black">
+                                    Максимально толстый <br />
+                                    слой мяса
+                                </p>
+                                <div
+                                    class="mt-[16px] bg-[#D67E34] py-3 font-[700] shadow-xl"
+                                >
+                                    <button>ЗАКАЗАТЬ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="profile bg-[#E5E5E5]">
+                <div class="container">
+                    <div class="py-20 text-center profile__wrapper">
+                        <p class="italic text-black text-icenter">
+                            Я надолго запомню мой День рождения, проведённый в
+                            этом ресторане! Кусочек родной <br />Армении!!!
+                            Отдельное спасибо за комплепент в виде фруктовой
+                            тарелки. Будем <br />рекомендовать этот ресторан
+                            своим друзьям и родственникам также за рубежом,
+                            <br />путешествующих в Санкт-Петербург!!!
+                        </p>
+                        <div class="justify-center px-[500px] py-8">
+                            <img
+                                src="./assets/images/Mask Group (2).png"
+                                alt=""
+                            />
+                        </div>
+                        <span class="block text-black">Посетитель</span>
+                        <span class="text-black">Николай</span>
+                    </div>
+                </div>
+            </section>
+            <section class="relative galery">
+                <div class="absolute py-52">
+                    <img src="./assets/images/Rectangle 10.png" alt="">
+                </div>
+                <div class="absolute left-[98%] py-52">
+                    <img src="./assets/images/Rectangle 10.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="py-20 text-center galery__wrapper">
+                        <h1 class="text-black text-[54px]">
+                            Галерея <span class="text-[#BC9060]">Блюд</span>
+                        </h1>
+                        <div class="py-10">
+                            <div class=""> 
+                                <img
+                                    src="./assets/images/table-71380_1280 1.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="py-8">
+                                <img src="./assets/images/coffee-3120750_1920 1.png" alt="">
+                            </div>
+                            <div class="px-[280px] mt-[-305px]">
+                                <img src="./assets/images/goulash-6054124_1920 1.png" alt="">
+                            </div>
+                            <div class="mt-[-580px] ml-[565px]">
+                                <img src="./assets/images/coffee-3120750_1920 1 (1).png" alt="">
+                            </div>
+                            <div class="mt-[-275px] ml-[845px]">
+                                <img src="./assets/images/goulash-6054124_1920 2.png" alt="">
+                            </div>
+                            <div class="mt-8 ml-[565px]">
+                                <img src="./assets/images/Mask Group (3).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cheaf">
+                <div class="container">
+                    <div class="cheaf__wrapper">
+                        <h2 class="text-black text-[54px] text-center">Наши <span class="text-[#BC9060]">Повара</span></h2>
+                        <div class="flex gap-10 py-20">
+                            <div>
+                                <img src="./assets/images/cook-196932_1920 1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/images/pizza-366111_1280 1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/images/image 4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="last-img">
+                <div class="container">
+                    <div class="py-10 last-img__wrapper">
+                        <img src="./assets/images/last img.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
